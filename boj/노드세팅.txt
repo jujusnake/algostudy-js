@@ -28,3 +28,9 @@ const [m, ...m_arr] = input.slice(n+1);
 
 
 출처: https://overcome-the-limits.tistory.com/entry/알고리즘-백준-0-nodejs-입력하기?category=922246?category=922246 [Plus Ultra]
+
+let fs = require("fs");
+let input = fs.readFileSync("boj/test.txt").toString().trim().split("\n");
+
+let fs = require("fs");
+let input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
